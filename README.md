@@ -26,7 +26,7 @@ Masai Book Store Application is a web application for a book store that allows u
 ```
     server.port=8080
 
-    spring.datasource.url=jdbc:mysql://localhost:3306/RoamBusDB;
+    spring.datasource.url=jdbc:mysql://localhost:3306/BookStoreDB;
     spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
     spring.datasource.username=root
     spring.datasource.password=root
