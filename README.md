@@ -43,7 +43,7 @@ NotAuthorizedException - thrown when a user is not authorized to perform a certa
 
 The project also defines a custom error response structure for clients to consume. The global exception handler is used to handle all exceptions and return a consistent error response to the client.
 
-
+#application.properties
 spring.datasource.url=jdbc:mysql://localhost:3306/masai_bookstore
 spring.datasource.username=<your-database-username>
 spring.datasource.password=<your-database-password>
