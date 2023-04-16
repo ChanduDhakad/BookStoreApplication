@@ -14,16 +14,7 @@ Masai Book Store Application is a web application for a book store that allows u
 - Maven
 
 
-# Modules
 
-- Login Module
-- Feedback Module
-- User Module
-- Bus Module
-- Reservation Module
-- Route Module
-- Admin Module
-- CurrentUser module
 
 
 
