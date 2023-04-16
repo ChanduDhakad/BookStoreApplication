@@ -3,8 +3,8 @@ Masai Book Store Application is a web application for a book store that allows u
 
 #Technologies Used
 
-1.Java
-2.Spring Boot
+#Java
+#Spring Boot
 3.MySQL
 4.Spring Data JPA
 5.Spring Security
