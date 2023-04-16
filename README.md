@@ -21,15 +21,15 @@ Update the database properties in the application.properties file located in src
 Run the application using your IDE or by executing the following command in your terminal within the project directory:
 
 API Endpoints
-HTTP Method	URL Path	Description
-POST	/masaibook/register	Register a new user, author, book, or cart.
-POST	/masaibook/user/login	Login a user.
-PUT	/masaibook/user/cart/{bookId}	Add a book to the logged-in user’s cart only if the book is not present already.
-PUT	/masaibook/user/cart/purchase	Check if within the budget then purchase all the books and empty the cart (user should be able to purchase through their cart only).
-GET	/masaibook/author	Return the most popular author (the author whose books have been purchased maximum number of times).
-PUT	/masaibook/cart	Refresh the cart (any book which is present for more than 30 days will be removed).
-DELETE	/masaibook/author	Delete an author (all books of the author from record and cart should get deleted).
-PUT	/masaibook/user/cart/auto	Analyze the most number of unique books that the logged-in user can buy within their budget and add them all to the cart.
+HTTP                      Method	URL Path	                                     Description
+POST	          /masaibook/register	                              Register a new user, author, book, or cart.
+POST	         /masaibook/user/login	                            Login a user.
+PUT	           /masaibook/user/cart/{bookId}	                     Add a book to the logged-in user’s cart only if the book is not present already.
+PUT           	/masaibook/user/cart/purchase                    	Check if within the budget then purchase all the books and empty the cart (user should be able to                                                                      purchase through their cart only).
+GET	           /masaibook/author                                 	Return the most popular author (the author whose books have been purchased maximum number of times).
+PUT	          /masaibook/cart	                                    Refresh the cart (any book which is present for more than 30 days will be removed).
+DELETE	       /masaibook/author	                                 Delete an author (all books of the author from record and cart should get deleted).
+PUT            	/masaibook/user/cart/auto	                         Analyze the most number of unique books that the logged-in user can buy within their budget and add                                                            them all to the cart.
 Exception Handling
 The project implements custom exception handling to handle errors and exceptions in a consistent manner. The following custom exceptions are defined:
 
